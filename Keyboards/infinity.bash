@@ -21,7 +21,7 @@ BaseMap="defaultMap"
 # This is the default layer of the keyboard
 # NOTE: To combine kll files into a single layout, separate them by spaces
 # e.g.  DefaultMap="mylayout mylayoutmod"
-DefaultMap="md1Overlay stdFuncMap"
+DefaultMap="0-base md1Overlay stdFuncMap"
 
 # This is where you set the additional layers
 # NOTE: Indexing starts at 1
@@ -29,9 +29,8 @@ DefaultMap="md1Overlay stdFuncMap"
 # e.g.  PartialMaps[1]="layer1 layer1mod"
 #       PartialMaps[2]="layer2"
 #       PartialMaps[3]="layer3"
-PartialMaps[1]="hhkbpro2"
-
-
+PartialMaps[1]="1-movement-media"
+PartialMaps[2]="2-numlock"
 
 ##########################
 # Advanced Configuration #
